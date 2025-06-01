@@ -1,0 +1,111 @@
+/* Change the played portion */
+.video-js .vjs-play-progress {
+  background-color: #00ff99 !important;
+  height: 8px;
+}
+
+/* Change the buffer portion */
+.video-js .vjs-load-progress {
+  background-color: #6666ff !important;
+}
+
+/* Change the whole slider bar background */
+.video-js .vjs-progress-holder {
+  background-color: #222 !important;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.video-js .vjs-mouse-display,
+.video-js .vjs-time-tooltip {
+  display: none;
+}
+
+.vjs-control-bar {
+  background-color: transparent !important;
+}
+
+/* 🔒 Hide current time & duration */
+.vjs-remaining-time,
+.vjs-current-time,
+.vjs-duration,
+.vjs-time-divider,
+.vjs-time-tooltip,
+.vjs-mouse-display {
+  display: none !important;
+}
+
+.video-js .vjs-play-progress {
+  background-color: #007bff;
+  transition: transform 0.1s linear;
+}
+
+/* 无黑框 比例cover */
+video {
+  object-fit: cover;
+}
+
+/* 隐藏音量控制 */
+.video-js .vjs-volume-panel {
+  display: none !important;
+}
+
+/* 自定义进度条容器 */
+.custom-progress-container {
+  position: relative;
+  width: 1000px;
+  height: 10px;
+  background: #6666665d; /* 整个进度条背景 */
+  background: rgba(100, 100, 100, 0.4);
+  z-index: 1;
+  cursor: default; /* 禁用指针交互 */
+  pointer-events: none; /* 禁用所有鼠标事件 */
+}
+
+/* 固定占位部分 (0-50%) */
+.progress-placeholder {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #00ff99; /* 灰色占位 */
+  z-index: 1;
+}
+
+/* 动态进度条 (50%-100%) */
+.custom-play-progress {
+  position: absolute;
+  left: 50%; /* 从50%位置开始 */
+  width: 0; /* 初始宽度为0 */
+  height: 100%;
+  background: #00ff99; /* 播放进度颜色 */
+  z-index: 2;
+}
+
+/* 播放头 */
+.play-head {
+  position: absolute;
+  top: -3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00ff99;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+
+/* 隐藏默认进度条 */
+.video-js .vjs-progress-control {
+  display: none;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  display: none;
+}

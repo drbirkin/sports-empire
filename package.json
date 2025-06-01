@@ -1,0 +1,32 @@
+{
+  "name": "sports-empire",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drbirkin/sports-empire.git"
+  },
+  "author": "niaguman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drbirkin/sports-empire/issues"
+  },
+  "homepage": "https://github.com/drbirkin/sports-empire#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.15.2",
+    "video.js": "^8.22.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "5.0.0-beta2",
+    "is_js": "^0.9.0",
+    "save": "^2.9.0",
+    "swiper": "^11.2.8"
+  }
+}

@@ -75,7 +75,7 @@ video {
 /* 动态进度条 (50%-100%) */
 .custom-play-progress {
   position: absolute;
-  left: 50%; /* 从50%位置开始 */
+  /* left: 50%; 从50%位置开始 */
   width: 0; /* 初始宽度为0 */
   height: 100%;
   background: #00ff99; /* 播放进度颜色 */
@@ -108,4 +108,19 @@ video {
 
 .intro {
   display: none;
+}
+
+@keyframes animateToHalf {
+  from {
+    width: 0;
+    opacity: 1;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.custom-play-progress.animate-to-half {
+  animation: animateToHalf 1s ease-out forwards;
 }

@@ -1,3 +1,11 @@
+.bg {
+  background-image: url("/assets/img/illustrations/lights_background.png");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  position: absolute;
+  opacity: .2;
+}
 .btn-primary {
   background-color: #e9a15d;
   border-color: #e3061567;
@@ -319,10 +327,11 @@ video {
 }
 
 .btn-3 {
+  border: solid 3px #fbba1b;
   background-image: linear-gradient(
-    to left,
+    15deg,
     #e30613 0%,
-    #e9935d 51%,
+    #ff8133 51%,
     #fbba1b 100%
   );
 }

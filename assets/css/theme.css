@@ -18697,9 +18697,12 @@ label {
   cursor: pointer;
 }
 
-.features-items:hover,
-.features-items:focus {
-  background-color: #081131 !important;
+.features-items:hover>div {
+  background-color: #111111 !important;
+}
+
+.features-items:hover p {
+  color: white;
 }
 
 /*-----------------------------------------------

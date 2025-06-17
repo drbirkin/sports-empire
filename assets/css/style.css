@@ -1,3 +1,14 @@
+.gradient-text {
+  background: linear-gradient(to left,
+    #e30613 0%,
+    #ff8133 51%,
+    #fbba1b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+
 .bg {
   background-image: url('/assets/img/illustrations/lights_background.png');
   height: 100%;

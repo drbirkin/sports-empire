@@ -1,103 +1,163 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Safia || Landing Template</title>
 
-  <!-- ===============================================-->
-  <!--    Document Title-->
-  <!-- ===============================================-->
-  <title>Safia || Landing Template</title>
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicons/favicon.png"
+    />
 
-  <!-- ===============================================-->
-  <!--    Favicons-->
-  <!-- ===============================================-->
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/f278aea53e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    />
+    <link href="//vjs.zencdn.net/8.23.3/video-js.min.css" rel="stylesheet" />
+    <script src="//vjs.zencdn.net/8.23.3/video.min.js"></script>
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  </head>
 
-  <!-- ===============================================-->
-  <!--    Stylesheets-->
-  <!-- ===============================================-->
-  <link rel="stylesheet" crossorigin="anonymous"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" />
-  <link href="//vjs.zencdn.net/8.23.3/video-js.min.css" rel="stylesheet" />
-  <script src="//vjs.zencdn.net/8.23.3/video.min.js"></script>
-  <link href="assets/css/theme.css" rel="stylesheet" />
-  <link href="assets/css/style.css" rel="stylesheet" />
-  <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet" />
-</head>
-
-<body>
-  <!-- ===============================================-->
-  <!--    Main Content-->
-  <!-- ===============================================-->
-  <main class="main" id="top">
-    <div class="bg"></div>
-    <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="90">
-      <div class="container pt-2">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/img/gallery/logo.png" alt="..." /></a>
-        <div class="navbar-nav ms-auto">
-          <a class="btn btn-secondary" style="background-color: #fbba1b; color: #070808">
-            Get Access
-          </a>
+  <body>
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <div class="bg"></div>
+      <nav
+        class="navbar navbar-light sticky-top"
+        data-navbar-darken-on-scroll="90"
+      >
+        <div class="container pt-2">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/gallery/logo.png" alt="..."
+          /></a>
+          <div class="navbar-nav ms-auto">
+            <a
+              class="btn btn-secondary"
+              style="background-color: #fbba1b; color: #070808"
+            >
+              Get Access
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- Video section -->
-    <section class="video-section">
-      <h1 class="display-3 text-center" style="width: 70%">
-        <span style="color: #e30613; font-size: 1.2em">IMPORTANT:</span>
-        Here's How You Can Actually Start Profiting from Sports Betting
-      </h1>
-      <p class="fs-2">
-        No parlays. No “locks.” Just the system that took me from down $10K to
-        $1M+ profit
-      </p>
-      <video id="my-video" class="video-js vjs-theme-forest" controls preload="auto" width="1000" height="500"
-        poster="assets/video/beach.jpg" data-setup="{}">
-        <source src="assets/video/beach.mp4" type="video/mp4" />
-        <p class="vjs-no-js">
-          To view this video please enable JavaScript, and consider upgrading
-          to a web browser that
-          <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      <!-- Video section -->
+      <section class="video-section">
+        <h1 class="display-3 text-center" style="width: 60%">
+          <span style="color: #e30613; font-size: 1.2em">IMPORTANT:</span>
+          Here's How You Can Actually Start Profiting from Sports Betting
+        </h1>
+        <p class="fs-2">
+          No parlays. No “locks.” Just the system that took me from down $10K to
+          $1M+ profit
         </p>
-      </video>
-      <!-- 自定义进度条容器 -->
-      <div class="custom-progress-container" id="custom-progress">
-        <div class="progress-placeholder"></div>
-        <div class="custom-play-progress" id="custom-play-progress">
-          <div class="play-head" id="play-head"></div>
-        </div>
-      </div>
-
-      <a class="btn btn-primary mt-5 btn-3" style="padding: 1.5em 8em">
-        JOIN TODAY
-        <span class="shimmer"></span>
-      </a>
-      <div class="d-flex align-items-center justify-content-center mt-2" style="width: 100%">
-        <img style="width: 22em" src="assets/img/gallery/trustpilot-stars-seeklogo.svg" />
-      </div>
-    </section>
-
-    <div class="intro">
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="mt-2" id="lockedContent">
-        <div class="container">
-          <h1 class="display-3 lh-sm text-center">
-            WHAT PEOPLE ARE SAYING ABOUT
-            <span style="color: #e30613">SPORTS EMPIRE</span>
-          </h1>
-          <p class="fs-2 text-center">
-            All Model-Backed Bets DAILY. 2,000+ Satisfied Members! Years of
-            data used to profit myself and others
+        <video
+          id="my-video"
+          class="video-js vjs-theme-forest"
+          controls
+          preload="auto"
+          width="1000"
+          height="500"
+          poster="assets/video/beach.jpg"
+          data-setup="{}"
+        >
+          <source src="assets/video/beach.mp4" type="video/mp4" />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading
+            to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+              >supports HTML5 video</a
+            >
           </p>
+        </video>
+        <!-- 自定义进度条容器 -->
+        <div class="custom-progress-container" id="custom-progress">
+          <div class="progress-placeholder"></div>
+          <div class="custom-play-progress" id="custom-play-progress">
+            <div class="play-head" id="play-head"></div>
+          </div>
+        </div>
 
-          <!-- <div class="row align-items-center">
+        <a class="btn btn-primary mt-5 btn-3" style="padding: 1.5em 8em">
+          JOIN TODAY
+          <span class="shimmer"></span>
+        </a>
+        <div
+          class="d-flex align-items-center justify-content-center mt-2"
+          style="width: 100%"
+        >
+          <img
+            style="width: 22em"
+            src="assets/img/gallery/trustpilot-stars-seeklogo.svg"
+          />
+        </div>
+      </section>
+
+      <div class="intro">
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="mt-2" id="lockedContent">
+          <div class="container">
+            <h1 class="display-3 lh-sm text-center">
+              WHAT PEOPLE ARE SAYING ABOUT<br />
+              <span style="color: #e30613">SPORTS EMPIRE</span>
+            </h1>
+            <p class="fs-2 text-center">
+              All Model-Backed Bets DAILY. 2,000+ Satisfied Members! Years of
+              data used to profit myself and others
+            </p>
+
+            <div class="grid-wrapper mt-5">
+              <div>
+                <img src="assets/img/success/success1.png" alt="" />
+              </div>
+              <div class="wide">
+                <img src="assets/img/success/success3.png" alt="" />
+              </div>
+              <div class="tall">
+                <img src="assets/img/success/success2.png" alt="" />
+              </div>
+              <div>
+                <img src="assets/img/success/success5.png" alt="" />
+              </div>
+              <div class="tall">
+                <img src="assets/img/success/success8.png" alt="" />
+              </div>
+              <div class="big">
+                <img src="assets/img/success/success4.png" alt="" />
+              </div>
+              <div>
+                <img src="assets/img/success/success7.png" alt="" />
+              </div>
+              <div class="wide">
+                <img src="assets/img/success/success6.png" alt="" />
+              </div>
+            </div>
+
+            <!-- <div class="row align-items-center">
               <div class="col-md-9 col-lg-8 col-xl-7">
                 <h1 class="display-3 lh-sm">
                   WHAT PEOPLE ARE SAYING ABOUT
@@ -112,451 +172,514 @@
                 <button class="btn btn-primary mt-3">Pricing and Plans</button>
               </div>
             </div> -->
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container">
-          <img class="img-fluid" src="assets/img/gallery/dashboard.png" alt="Dashboard" />
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container">
-          <div class="row mx-md-5 px-md-5 d-flex justify-content-evenly">
-            <div class="col-4 col-lg-auto mt-5 mt-lg-0">
-              <img src="assets/img/gallery/brands/google.png" alt="Google" style="height: 30px" />
-            </div>
-            <div class="col-4 col-lg-auto mt-5 mt-lg-0">
-              <img src="assets/img/gallery/brands/slack.png" alt="Slack" style="height: 30px" />
-            </div>
-            <div class="col-4 col-lg-auto mt-5 mt-lg-0">
-              <img src="assets/img/gallery/brands/amazon.png" alt="Amazon" style="height: 30px" />
-            </div>
-            <div class="col-4 col-lg-auto mt-5 mt-lg-0">
-              <img src="assets/img/gallery/brands/zoom.png" alt="Zoom" style="height: 30px" />
-            </div>
-            <div class="col-4 col-lg-auto mt-5 mt-lg-0">
-              <img src="assets/img/gallery/brands/netflix.png" alt="Netflix" style="height: 30px" />
-            </div>
           </div>
-          <div class="px-xl-8 px-md-7">
-            <hr class="mt-7 text-1000" />
-          </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container">
-          <h1 class="display-6 fw-semi-bold">Feature</h1>
-          <p class="fs-2">
-            Our landing page template works on all devices, so you only have
-            to set.
-          </p>
-          <div class="row mb-4 mt-6">
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/dashboardicon.png" alt="Dashboard" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Dashboard</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <!-- <section> -->
+        <!-- <div class="container">
+            <img
+              class="img-fluid"
+              src="assets/img/gallery/dashboard.png"
+              alt="Dashboard"
+            />
+          </div> -->
+        <!-- end of .container-->
+        <!-- </section> -->
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section>
+          <div class="container">
+            <h1 class="display-3 fw-semi-bold text-center">
+              WHAT YOU GET FROM US
+            </h1>
+            <p class="fs-2 text-center">
+              All Model-Backed Bets DAILY. 2,000+ Satisfied Members! Years of
+              data used to profit myself and others
+            </p>
+            <div class="row mb-4 mt-6">
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5 text-center">
+                    <div
+                      class="p-5"
+                      style="border-radius: 0.5em; background-color: #1d1c1c"
+                    >
+                      <i
+                        class="fa-solid fa-chart-simple"
+                        style="font-size: 2em; color: #e30613"
+                      ></i>
+                    </div>
+                    <h3 class="pt-3 lh-base">Statistics</h3>
+                    <p class="mb-0 fs-2">
+                      Model-Backed Picks with high success rates due to years of
+                      stats and data
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5">
+                    <img
+                      src="assets/img/gallery/comment.png"
+                      alt="Comment"
+                      style="width: 48px; height: 48px"
+                    />
+                    <h3 class="pt-3 lh-base">Comment</h3>
+                    <p class="mb-0">
+                      Model-Backed Picks with high success rates due to years of
+                      stats and data
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/comment.png" alt="Comment" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Comment</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5">
+                    <img
+                      src="assets/img/gallery/trilored.png"
+                      alt="Tailored"
+                      style="width: 48px; height: 48px"
+                    />
+                    <h3 class="pt-3 lh-base">Tailored</h3>
+                    <p class="mb-0">
+                      A pseudo-Latin text used in web design, layout, and
+                      printing in place of things to emphasise layouts for
+                      previewing layouts and visual mockups.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5">
+                    <img
+                      src="assets/img/gallery/statistics.png"
+                      alt="Statistic"
+                      style="width: 48px; height: 48px"
+                    />
+                    <h3 class="pt-3 lh-base">Profit</h3>
+                    <p class="mb-0">
+                      Profit Tracker to make sure your winning's are on track
+                      with the teams
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5">
+                    <img
+                      src="assets/img/gallery/profile.png"
+                      alt="Profiles"
+                      style="width: 48px; height: 48px"
+                    />
+                    <h3 class="pt-3 lh-base">Profiles</h3>
+                    <p class="mb-0">
+                      A pseudo-Latin text used in web design, layout, and
+                      printing in place of things to emphasise layouts for
+                      previewing layouts and visual mockups.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="border rounded-1 border-700 h-100 features-items">
+                  <div class="p-5">
+                    <img
+                      src="assets/img/gallery/folder.png"
+                      alt="Folders"
+                      style="width: 48px; height: 48px"
+                    />
+                    <h3 class="pt-3 lh-base">Folders</h3>
+                    <p class="mb-0">
+                      A pseudo-Latin text used in web design, layout, and
+                      printing in place of things to emphasise layouts for
+                      previewing layouts and visual mockups.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row mb-4">
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/trilored.png" alt="Tailored" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Tailored</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="mt-5">
+          <div class="container">
+            <div class="text-center">
+              <div class="p-5 bg-primary rounded-3">
+                <div class="py-3">
+                  <h4 class="opacity-50 ls-2 lh-base fw-medium">
+                    READY TO START
+                  </h4>
+                  <h2
+                    class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold"
+                  >
+                    Start Your Free Trail Today
+                  </h2>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/statistics.png" alt="Statistic" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Statistic</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/profile.png" alt="Profiles" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Profiles</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="border rounded-1 border-700 h-100 features-items">
-                <div class="p-5">
-                  <img src="assets/img/gallery/folder.png" alt="Folders" style="width: 48px; height: 48px" />
-                  <h3 class="pt-3 lh-base">Folders</h3>
-                  <p class="mb-0">
-                    A pseudo-Latin text used in web design, layout, and
-                    printing in place of things to emphasise layouts for
-                    previewing layouts and visual mockups.
-                  </p>
+                <div class="flex-center d-flex">
+                  <button class="btn btn-info">
+                    Get Started <span class="fas fa-arrow-right"></span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="mt-5">
-        <div class="container">
-          <div class="text-center">
-            <div class="p-5 bg-primary rounded-3">
-              <div class="py-3">
-                <h4 class="opacity-50 ls-2 lh-base fw-medium">
-                  READY TO START
-                </h4>
-                <h2 class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold">
-                  Start Your Free Trail Today
-                </h2>
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="mt-5">
+          <div class="container">
+            <div class="text-center">
+              <p class="fs-2 ls-2">SAFLOW</p>
+              <h1 class="display-6 fw-semi-bold">How does it work?</h1>
+            </div>
+            <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+              <div class="col-md-7 col-lg-6 order-md-1">
+                <img
+                  class="w-100"
+                  src="assets/img/gallery/comment1.png"
+                  alt="..."
+                />
               </div>
-              <div class="flex-center d-flex">
-                <button class="btn btn-info">
-                  Get Started <span class="fas fa-arrow-right"></span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="mt-5">
-        <div class="container">
-          <div class="text-center">
-            <p class="fs-2 ls-2">SAFLOW</p>
-            <h1 class="display-6 fw-semi-bold">How does it work?</h1>
-          </div>
-          <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
-            <div class="col-md-7 col-lg-6 order-md-1">
-              <img class="w-100" src="assets/img/gallery/comment1.png" alt="..." />
-            </div>
-            <div class="col-md-5 col-lg-4">
-              <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
-                How does it work?
-              </h3>
-              <p class="fs-xl-1 ls-3 pe-xl-2">
-                Our landing page template works on all devices, so you only
-                have to set it up once, and get beautiful results.
-              </p>
-            </div>
-          </div>
-          <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
-            <div class="col-md-7 col-lg-6 false">
-              <img class="w-100" src="assets/img/gallery/comment2.png" alt="..." />
-            </div>
-            <div class="col-md-5 col-lg-4">
-              <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
-                How does it work?
-              </h3>
-              <p class="fs-xl-1 ls-3 pe-xl-2">
-                Our landing page template works on all devices, so you only
-                have to set it up once, and get beautiful results.
-              </p>
-            </div>
-          </div>
-          <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
-            <div class="col-md-7 col-lg-6 order-md-1">
-              <img class="w-100" src="assets/img/gallery/comment3.png" alt="..." />
-            </div>
-            <div class="col-md-5 col-lg-4">
-              <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
-                How does it work?
-              </h3>
-              <p class="fs-xl-1 ls-3 pe-xl-2">
-                Our landing page template works on all devices, so you only
-                have to set it up once, and get beautiful results.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container-lg">
-          <div class="text-center">
-            <p class="fs-2 ls-2">SAFLOW</p>
-            <h1 class="display-6 fw-semi-bold">Pricing</h1>
-          </div>
-          <div class="row flex-center">
-            <div class="col-sm-9 col-md-4 mt-3">
-              <div class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-md-9">
-                <p class="fs-2 ls-2">FREE</p>
-                <h1 class="display-4 ls-3">
-                  <span class="text-600">$</span>0
-                </h1>
-                <hr class="hr mt-6 text-1000" />
-                <ul class="mt-5 ps-0">
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>7,000,000+ Events
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
-                    Custom Domains
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>Dedicated Support
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
-                    Months History
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
-                    Dedicated SSL
-                  </li>
-                </ul>
-                <button class="btn btn-gray mt-4">
-                  Get Started <span class="fas fa-arrow-right"></span>
-                </button>
+              <div class="col-md-5 col-lg-4">
+                <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
+                  How does it work?
+                </h3>
+                <p class="fs-xl-1 ls-3 pe-xl-2">
+                  Our landing page template works on all devices, so you only
+                  have to set it up once, and get beautiful results.
+                </p>
               </div>
             </div>
-            <div class="col-sm-9 col-md-4 mt-3">
-              <div class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-0">
-                <p class="fs-2 ls-2">BASIC</p>
-                <h1 class="display-4 ls-3">
-                  <span class="text-600">$</span>23
-                </h1>
-                <hr class="hr mt-6 text-1000" />
-                <ul class="mt-5 ps-0">
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>7,000,000+ Events
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
-                    Custom Domains
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>Dedicated Support
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
-                    Months History
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
-                    Dedicated SSL
-                  </li>
-                </ul>
-                <button class="btn btn-gray mt-4">
-                  Get Started <span class="fas fa-arrow-right"></span>
-                </button>
+            <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+              <div class="col-md-7 col-lg-6 false">
+                <img
+                  class="w-100"
+                  src="assets/img/gallery/comment2.png"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-5 col-lg-4">
+                <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
+                  How does it work?
+                </h3>
+                <p class="fs-xl-1 ls-3 pe-xl-2">
+                  Our landing page template works on all devices, so you only
+                  have to set it up once, and get beautiful results.
+                </p>
               </div>
             </div>
-            <div class="col-sm-9 col-md-4 mt-3">
-              <div class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-md-9">
-                <p class="fs-2 ls-2">PREMIUM</p>
-                <h1 class="display-4 ls-3">
-                  <span class="text-600">$</span>59
-                </h1>
-                <hr class="hr mt-6 text-1000" />
-                <ul class="mt-5 ps-0">
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>7,000,000+ Events
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
-                    Custom Domains
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>Dedicated Support
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
-                    Months History
-                  </li>
-                  <li class="pricing-lists">
-                    <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
-                    Dedicated SSL
-                  </li>
-                </ul>
-                <button class="btn btn-gray mt-4">
-                  Get Started <span class="fas fa-arrow-right"></span>
-                </button>
+            <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+              <div class="col-md-7 col-lg-6 order-md-1">
+                <img
+                  class="w-100"
+                  src="assets/img/gallery/comment3.png"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-5 col-lg-4">
+                <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">
+                  How does it work?
+                </h3>
+                <p class="fs-xl-1 ls-3 pe-xl-2">
+                  Our landing page template works on all devices, so you only
+                  have to set it up once, and get beautiful results.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container">
-          <div class="text-center text-xl-start">
-            <div class="p-5 bg-primary rounded-3 d-flex flex-column justify-content-xl-between flex-xl-row">
-              <div class="py-3">
-                <h4 class="opacity-50 ls-2 lh-base fw-medium">
-                  READY TO START
-                </h4>
-                <h2 class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold">
-                  Start Your Free Trail Today
-                </h2>
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section>
+          <div class="container-lg">
+            <div class="text-center">
+              <p class="fs-2 ls-2">SAFLOW</p>
+              <h1 class="display-6 fw-semi-bold">Pricing</h1>
+            </div>
+            <div class="row flex-center">
+              <div class="col-sm-9 col-md-4 mt-3">
+                <div
+                  class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-md-9"
+                >
+                  <p class="fs-2 ls-2">FREE</p>
+                  <h1 class="display-4 ls-3">
+                    <span class="text-600">$</span>0
+                  </h1>
+                  <hr class="hr mt-6 text-1000" />
+                  <ul class="mt-5 ps-0">
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >7,000,000+ Events
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
+                      Custom Domains
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >Dedicated Support
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
+                      Months History
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
+                      Dedicated SSL
+                    </li>
+                  </ul>
+                  <button class="btn btn-gray mt-4">
+                    Get Started <span class="fas fa-arrow-right"></span>
+                  </button>
+                </div>
               </div>
-              <div class="flex-center d-flex">
-                <button class="btn btn-info">
-                  Get Started <span class="fas fa-arrow-right"></span>
-                </button>
+              <div class="col-sm-9 col-md-4 mt-3">
+                <div
+                  class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-0"
+                >
+                  <p class="fs-2 ls-2">BASIC</p>
+                  <h1 class="display-4 ls-3">
+                    <span class="text-600">$</span>23
+                  </h1>
+                  <hr class="hr mt-6 text-1000" />
+                  <ul class="mt-5 ps-0">
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >7,000,000+ Events
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
+                      Custom Domains
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >Dedicated Support
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
+                      Months History
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
+                      Dedicated SSL
+                    </li>
+                  </ul>
+                  <button class="btn btn-gray mt-4">
+                    Get Started <span class="fas fa-arrow-right"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-sm-9 col-md-4 mt-3">
+                <div
+                  class="py-5 px-4 px-md-3 px-lg-4 rounded-1 bg-800 plans-cards mt-md-9"
+                >
+                  <p class="fs-2 ls-2">PREMIUM</p>
+                  <h1 class="display-4 ls-3">
+                    <span class="text-600">$</span>59
+                  </h1>
+                  <hr class="hr mt-6 text-1000" />
+                  <ul class="mt-5 ps-0">
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >7,000,000+ Events
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>4
+                      Custom Domains
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i
+                      >Dedicated Support
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>12
+                      Months History
+                    </li>
+                    <li class="pricing-lists">
+                      <i class="fas fa-check-circle fa-lg me-2 text-600"></i>1
+                      Dedicated SSL
+                    </li>
+                  </ul>
+                  <button class="btn btn-gray mt-4">
+                    Get Started <span class="fas fa-arrow-right"></span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-secondary">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 text-center text-xl-start">
-              <a href="#!"><img class="footer-img me-xl-5 me-3" src="assets/img/gallery/facebook-line1.svg" alt="fb"
-                  style="width: 20px; height: 20px" /></a><a href="#!"><img class="footer-img me-xl-5 me-3"
-                  src="assets/img/gallery/linkedin-line1.svg" alt="in" style="width: 20px; height: 20px" /></a><a
-                href="#!"><img class="footer-img me-xl-5 me-3" src="assets/img/gallery/twitter-line1.svg" alt="twitter"
-                  style="width: 20px; height: 20px" /></a><a href="#!"><img class="footer-img me-xl-5 me-3"
-                  src="assets/img/gallery/instagram-line1.svg" alt="instragram" style="width: 20px; height: 20px" /></a>
-            </div>
-            <div class="col-xl-4 pt-2 pt-xl-0">
-              <p class="mb-0 text-center text-xl-end">
-                <a class="text-300 text-decoration-none footer-link" href="#!">
-                  Terms &amp; conditon </a><a class="text-300 text-decoration-none footer-link ps-4" href="#!">Privacy
-                  Policy
-                </a>
-              </p>
-            </div>
-            <div class="col-xl-5 pt-2 pt-xl-0 text-center text-xl-end">
-              <p class="mb-0">
-                &copy; This template is made with ❤️ by
-                <a class="text-300" href="https://themewagon.com/" target="_blank">
-                  ThemeWagon</a>
-              </p>
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section>
+          <div class="container">
+            <div class="text-center text-xl-start">
+              <div
+                class="p-5 bg-primary rounded-3 d-flex flex-column justify-content-xl-between flex-xl-row"
+              >
+                <div class="py-3">
+                  <h4 class="opacity-50 ls-2 lh-base fw-medium">
+                    READY TO START
+                  </h4>
+                  <h2
+                    class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold"
+                  >
+                    Start Your Free Trail Today
+                  </h2>
+                </div>
+                <div class="flex-center d-flex">
+                  <button class="btn btn-info">
+                    Get Started <span class="fas fa-arrow-right"></span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- end of .container-->
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-    </div>
-  </main>
-  <!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
 
-  <!-- ===============================================-->
-  <!--    JavaScripts-->
-  <!-- ===============================================-->
-  <script>
-    const intro_target = document.querySelector('.intro')
-    document.addEventListener('DOMContentLoaded', () => {
-      const video = document.querySelector('video')
-      const lockedContent = document.getElementById('lockedContent')
-      console.log('check', video, lockedContent)
-      if (video && lockedContent) {
-        // Ensure the video's loop attribute is not set to true
-        video.loop = false
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="bg-secondary">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-3 text-center text-xl-start">
+                <a href="#!"
+                  ><img
+                    class="footer-img me-xl-5 me-3"
+                    src="assets/img/gallery/facebook-line1.svg"
+                    alt="fb"
+                    style="width: 20px; height: 20px" /></a
+                ><a href="#!"
+                  ><img
+                    class="footer-img me-xl-5 me-3"
+                    src="assets/img/gallery/linkedin-line1.svg"
+                    alt="in"
+                    style="width: 20px; height: 20px" /></a
+                ><a href="#!"
+                  ><img
+                    class="footer-img me-xl-5 me-3"
+                    src="assets/img/gallery/twitter-line1.svg"
+                    alt="twitter"
+                    style="width: 20px; height: 20px" /></a
+                ><a href="#!"
+                  ><img
+                    class="footer-img me-xl-5 me-3"
+                    src="assets/img/gallery/instagram-line1.svg"
+                    alt="instragram"
+                    style="width: 20px; height: 20px"
+                /></a>
+              </div>
+              <div class="col-xl-4 pt-2 pt-xl-0">
+                <p class="mb-0 text-center text-xl-end">
+                  <a
+                    class="text-300 text-decoration-none footer-link"
+                    href="#!"
+                  >
+                    Terms &amp; conditon </a
+                  ><a
+                    class="text-300 text-decoration-none footer-link ps-4"
+                    href="#!"
+                    >Privacy Policy
+                  </a>
+                </p>
+              </div>
+              <div class="col-xl-5 pt-2 pt-xl-0 text-center text-xl-end">
+                <p class="mb-0">
+                  &copy; This template is made with ❤️ by
+                  <a
+                    class="text-300"
+                    href="https://themewagon.com/"
+                    target="_blank"
+                  >
+                    ThemeWagon</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+      </div>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
 
-        video.addEventListener('ended', () => {
-          // When the video finishes playing, show the locked content
-          lockedContent.style.display = 'block' // Or 'flex', 'grid', etc., depending on your layout
-          console.log('Video finished. Content unlocked.')
-          intro_target.style.display = 'block'
-        })
-      } else {
-        console.error('Video element or locked content element not found.')
-      }
-    })
-  </script>
-  <script src="assets/js/script.js"></script>
-  <script type="module" src="vendors/@popperjs/popper.min.js"></script>
-  <script type="module" src="vendors/bootstrap/bootstrap.min.js"></script>
-  <script type="module" src="vendors/is/is.min.js"></script>
-  <script type="module" src="vendors/swiper/swiper-bundle.min.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
-    rel="stylesheet" />
-  <script src="assets/js/theme.js"></script>
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script>
+      const intro_target = document.querySelector('.intro')
+      document.addEventListener('DOMContentLoaded', () => {
+        const video = document.querySelector('video')
+        const lockedContent = document.getElementById('lockedContent')
+        console.log('check', video, lockedContent)
+        if (video && lockedContent) {
+          // Ensure the video's loop attribute is not set to true
+          video.loop = false
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
-    rel="stylesheet" />
-</body>
+          video.addEventListener('ended', () => {
+            // When the video finishes playing, show the locked content
+            lockedContent.style.display = 'block' // Or 'flex', 'grid', etc., depending on your layout
+            console.log('Video finished. Content unlocked.')
+            intro_target.style.display = 'block'
+          })
+        } else {
+          console.error('Video element or locked content element not found.')
+        }
+      })
+    </script>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="vendors/@popperjs/popper.min.js"></script>
+    <script type="module" src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="vendors/is/is.min.js"></script>
+    <script type="module" src="vendors/swiper/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="assets/js/theme.js"></script>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+  </body>
 </html>

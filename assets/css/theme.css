@@ -3744,13 +3744,13 @@ fieldset:disabled .btn {
 
 .btn-info {
   color: #fff;
-  background-color: #689eff;
-  border-color: #689eff;
+  background-color: #c43d46;
+  border-color: #e30613;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #5886d9;
+  background-color: #e30613;
   border-color: #537ecc;
 }
 
@@ -10056,7 +10056,7 @@ fieldset:disabled .btn {
 }
 
 .bg-secondary {
-  background-color: #162044 !important;
+  background-color: #0f0f0f !important;
 }
 
 .bg-success {

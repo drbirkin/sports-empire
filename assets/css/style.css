@@ -18,6 +18,20 @@
   opacity: 0.2;
   /* filter: blur(25px); */
 }
+
+.line-bg {
+  background-image: url('/assets/img/illustrations/line-bg.png');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 0.2;
+  top:  0;
+  left: 0;
+  z-index: 0;
+}
+
 .btn-primary {
   background-color: #e9a15d;
   border-color: #e3061567;
@@ -82,6 +96,7 @@ video {
 
 /* 自定义进度条容器 */
 .custom-progress-container {
+  display: none !important;
   position: relative;
   width: 1000px;
   height: 10px;
@@ -136,9 +151,9 @@ video {
   align-items: center;
 }
 
-/* .intro {
+.intro {
   display: none;
-} */
+}
 
 @keyframes animateToHalf {
   from {

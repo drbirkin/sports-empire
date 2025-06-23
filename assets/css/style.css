@@ -151,9 +151,9 @@ video {
   align-items: center;
 }
 
-.intro {
+/* .intro {
   display: none;
-}
+} */
 
 @keyframes animateToHalf {
   from {

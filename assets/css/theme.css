@@ -4575,6 +4575,12 @@ fieldset:disabled .btn {
   }
 }
 
+@media (max-width: 768px) {
+  .intro-button {
+    padding: 1.5em 5em !important;
+  }
+}
+
 @media (min-width: 992px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
